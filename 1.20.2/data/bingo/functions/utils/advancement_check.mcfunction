@@ -1,0 +1,2 @@
+# Dead Weight
+execute as @a[scores={deaths=10..}] if score run gameState matches 1 if entity @a[advancements={bingo:in_game_success/dead_weight=false}] run advancement grant @s only bingo:in_game_success/dead_weight

@@ -1,0 +1,1 @@
+$team modify displayPlayer suffix [{"text":": ","color":"gray"},{"text":"$(count)","color":"gold"}]

@@ -1,0 +1,29 @@
+{
+    "parent": "bingo:root",
+
+    "display": {
+      "icon": {
+        "item": "minecraft:blaze_powder",
+        "nbt": "{Enchantments:[{lvl:1s, id:\"minecraft:mending\"}]}"
+      },
+      "title": {
+        "text": "69 Victory!",
+        "color": "#eb9b46",
+        "bold": true
+      },
+      "description": {
+        "text": "Obtain 6/9 Items in Single Line mode on 3x3 Grid.",
+        "color": "#9e40e6"
+      },
+      "background": "minecraft:textures/block/coal_block.png",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

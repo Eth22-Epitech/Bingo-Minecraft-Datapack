@@ -1,0 +1,29 @@
+{
+    "parent": "bingo:root",
+
+    "display": {
+      "icon": {
+        "item": "minecraft:dead_bush",
+        "nbt": "{Enchantments:[{lvl:1s, id:\"minecraft:mending\"}]}"
+      },
+      "title": {
+        "text": "Dead Weight",
+        "color": "#704d27",
+        "bold": true
+      },
+      "description": {
+        "text": "Die at least 10 times in a single game.\nI hope your teammates can carry you now.",
+        "color": "#9e40e6"
+      },
+      "background": "minecraft:textures/block/coal_block.png",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

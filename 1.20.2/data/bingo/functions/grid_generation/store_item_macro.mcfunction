@@ -1,0 +1,2 @@
+$execute positioned 0 156 0 run data modify storage bingo item$(iteration) set from entity @e[type=item,sort=nearest,limit=1]
+$data modify storage bingo:itemlist_item$(iteration) Id set from storage minecraft:bingo item$(iteration).Item.id

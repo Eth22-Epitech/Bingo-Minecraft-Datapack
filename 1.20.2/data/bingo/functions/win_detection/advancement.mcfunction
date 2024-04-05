@@ -1,0 +1,7 @@
+# 69 Victory!
+execute as @a[team=Red] if score Win teamRedScore matches 1 if score Total teamRedScore matches 6 if score gridSizeSquared tempData matches 9 run advancement grant @s only bingo:win_success/69
+execute as @a[team=Gold] if score Win teamGoldScore matches 1 if score Total teamGoldScore matches 6 if score gridSizeSquared tempData matches 9 run advancement grant @s only bingo:win_success/69
+execute as @a[team=Blue] if score Win teamBlueScore matches 1 if score Total teamBlueScore matches 6 if score gridSizeSquared tempData matches 9 run advancement grant @s only bingo:win_success/69
+execute as @a[team=Magenta] if score Win teamMagentaScore matches 1 if score Total teamMagentaScore matches 6 if score gridSizeSquared tempData matches 9 run advancement grant @s only bingo:win_success/69
+execute as @a[team=Black] if score Win teamBlackScore matches 1 if score Total teamBlackScore matches 6 if score gridSizeSquared tempData matches 9 run advancement grant @s only bingo:win_success/69
+execute as @a[team=Green] if score Win teamGreenScore matches 1 if score Total teamGreenScore matches 6 if score gridSizeSquared tempData matches 9 run advancement grant @s only bingo:win_success/69

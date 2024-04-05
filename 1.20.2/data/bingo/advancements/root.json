@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:crafting_table",
+        "nbt": "{Enchantments:[{lvl:1s, id:\"minecraft:mending\"}]}"
+      },
+      "title": {
+        "text": "Bingo!",
+        "color": "#a928d4",
+        "bold": true
+      },
+      "description": {
+        "text": "Begin your first game of Bingo!"
+      },
+      "background": "minecraft:textures/block/coal_block.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
